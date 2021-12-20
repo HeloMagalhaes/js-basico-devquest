@@ -1,6 +1,6 @@
-const boletoPago = 'false'
-if (boletoPago == 'false') {
-    alert('O boleto não está pago.')
-} else {
+const boletoPago = true
+if (boletoPago == true) {
     alert('O boleto está pago.')
+} else {
+    alert('O boleto não está pago.')
 }
